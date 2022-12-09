@@ -30,11 +30,11 @@ app.post('/api/notes', (req, res) => {
 });
 
 
-app.post('/api/notes/:id', (req, res) => {
+app.delete('/api/notes/:id', (req, res) => {
     let tempNotesList = [];
 
     notes.forEach(function (myNote) {
-        if (myNote.id == req.params.id) {
+        if (myNote.id != req.params.id) {
             tempNotesList.push(myNote);
         }
     });
