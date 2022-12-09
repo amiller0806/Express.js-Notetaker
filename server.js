@@ -1,7 +1,5 @@
 const express = require('express');
 
-const petData = require('./db/animals.json');
-
 const PORT = 3001;
 
 const app = express();
@@ -14,7 +12,7 @@ app.use(express.static('public'));
 
 
 
-app.get('/api/pets', (req, res) => res.json(petData));
+
 
 app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${PORT}`);
