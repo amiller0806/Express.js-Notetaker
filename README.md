@@ -27,17 +27,17 @@ Application called Note Taker that can be used to write and save notes. This app
 [For Further Information]( https://shields.io/category/license)
 
   ### Installation
-  In the terminal
-1.	cd to the directory: Express.js-Notetaker (ex. since it is downloaded in Desktop/Bootcamp for me, I type: “cd Desktop/Bootcamp/Express.js-Notetaker” 
+  In the terminal:  <br>
+1.	cd to the directory: Express.js-Notetaker (ex. since it is downloaded in Desktop/Bootcamp for me, I type: “cd Desktop/Bootcamp/Express.js-Notetaker”   <br>
 2.	Type “npm i” 
   ### Contribution
   Ariel Miller 
 
   ### Usage
-  In the terminal:
-1.cd to the directory: Express.js- Notetaker (ex. since it is downloaded in Desktop/Bootcamp for me, I type: “cd Desktop/Bootcamp/Express.js-Notetaker” 
-2. Install using "npm i" or "npm install"
-3.	Type heroku login, login on heroku website
+  In the terminal: <br>
+1.cd to the directory: Express.js- Notetaker (ex. since it is downloaded in Desktop/Bootcamp for me, I type: “cd Desktop/Bootcamp/Express.js-Notetaker” <br>
+2. Install using "npm i" or "npm install" <br>
+3.	Type heroku login, login on heroku website <br>
 4. Type "heroku open" which will open the application, which has the link: https://secure-bastion-37945.herokuapp.com/notes 
 
   ### Tests
